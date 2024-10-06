@@ -1,6 +1,6 @@
 {
   "name": "note-toolkit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple notes manager which can access through terminal.",
   "main": "app.js",
   "bin": {
