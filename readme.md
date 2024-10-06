@@ -64,11 +64,11 @@ Once **Note Toolkit** is installed in your system, you can start managing your n
 - **Description**: Removes a specific note by title.
 - **Syntax**: 
     ```bash
-    note-buddy remove --title "<note-title>"
+    note-buddy delete --title "<note-title>"
     ```
 - **Example**:
     ```bash
-    note-buddy remove --title "Meeting Notes"
+    note-buddy delete --title "Meeting Notes"
     ```
 
 ### Common Examples
