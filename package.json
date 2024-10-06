@@ -3,12 +3,8 @@
   "version": "1.0.2",
   "description": "A simple notes manager which can access through terminal.",
   "main": "app.js",
-  "bin": {
-    "note-buddy": "./bin/app.js"
-  },
-  "scripts": {
-    "start": "node ./bin/app.js"
-  },
+  "bin": { "note-buddy": "./bin/app.js" },
+  "scripts": { "start": "node ./bin/app.js" },
   "author": "Abhrajit Debnath",
   "license": "MIT",
   "dependencies": {
