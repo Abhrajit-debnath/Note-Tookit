@@ -13,5 +13,12 @@
   "license": "MIT",
   "dependencies": {
     "yargs": "^17.7.2"
-  }
+  },
+  "keywords": [
+    "notes",
+    "note-manager",
+    "CLI",
+    "terminal",
+    "JavaScript"
+  ]
 }
