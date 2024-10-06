@@ -31,11 +31,11 @@ Once **Note Toolkit** is installed in your system, you can start managing your n
 - **Description** : Add a note.
 - **Syntax**: 
     ```bash
-    note-buddy add "<note-title>" --body="<note-body>"
+    note-buddy add --title "<note-title>" --body "<note-body>"
     ```
 - **Example**:
     ```bash
-    note-buddy add "Meeting Notes" --body="Discuss project requirements and deadlines"
+    note-buddy add --title "Meeting Notes" --body "Discuss project requirements and deadlines"
     ```
 
 #### 2. `list`
@@ -53,29 +53,29 @@ Once **Note Toolkit** is installed in your system, you can start managing your n
 - **Description**: Reads a specific note by title.
 - **Syntax**: 
     ```bash
-    note-buddy read "<note-title>"
+    note-buddy read --title "<note-title>"
     ```
 - **Example**:
     ```bash
-    note-buddy read "Meeting Notes"
+    note-buddy read --title "Meeting Notes"
     ```
 
 #### 4. `remove`
 - **Description**: Removes a specific note by title.
 - **Syntax**: 
     ```bash
-    note-buddy remove "<note-title>"
+    note-buddy remove --title "<note-title>"
     ```
 - **Example**:
     ```bash
-    note-buddy remove "Meeting Notes"
+    note-buddy remove --title "Meeting Notes"
     ```
 
 ### Common Examples
 
 - **Add a Note**:
     ```bash
-    note-buddy add "Shopping List" --body="Milk, Eggs, Bread"
+    note-buddy add --title "Shopping List" --body "Milk, Eggs, Bread"
     ```
 
 - **List All Notes**:
@@ -85,12 +85,12 @@ Once **Note Toolkit** is installed in your system, you can start managing your n
 
 - **Read a Specific Note**:
     ```bash
-    note-buddy read "Shopping List"
+    note-buddy read --title "Shopping List"
     ```
 
 - **Delete a Note**:
     ```bash
-    note-buddy remove "Shopping List"
+    note-buddy remove --title "Shopping List"
     ```
 
 ## Configuration
@@ -107,9 +107,7 @@ Start by forking the [Note Vault repository](https://github.com/your-username/no
 ### 2. Clone Your Fork
 ```bash
 git clone https://github.com/your-username/note-vault.git
-
 ```
-
 
 ### 3. Create a new branch
 ```code
@@ -122,7 +120,6 @@ git checkout -b feature/my-new-feature
 ### 4. Commit Your Changes
 ```code
 git commit -m "Add new feature: description"
-
 ```
 
 #### Commit your changes with a meaningful message:
@@ -144,7 +141,6 @@ git push origin feature/my-new-feature
 - Ensure your changes are well-tested.
 - Maintain consistent code style.
 - Write detailed and clear commit messages.
-
 ---
 
 
@@ -160,7 +156,6 @@ The **License** section informs users about the licensing terms of your project.
 This project is licensed under the MIT License. You are free to use, modify, and distribute this software as long as the original license is included in all copies or substantial portions of the software.
 
 For more details, please refer to the [LICENSE](LICENSE) file in the repository.
-
 ---
 
 MIT License
