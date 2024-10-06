@@ -99,14 +99,14 @@ At this time, **Note Toolkit** does not require any specific configuration. All 
 
 ## Contributing
 
-Contributions are welcome! If you would like to contribute to **Note Vault**, please follow these steps:
+Contributions are welcome! If you would like to contribute to **Note Toolkit**, please follow these steps:
 
 ### 1. Fork the Repository
-Start by forking the [Note Vault repository](https://github.com/your-username/note-vault).
+Start by forking the [Note Vault repository](https://github.com/your-username/note-toolkit).
 
 ### 2. Clone Your Fork
 ```bash
-git clone https://github.com/your-username/note-vault.git
+git clone https://github.com/your-username/note-toolkit.git
 ```
 
 ### 3. Create a new branch
