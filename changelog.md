@@ -17,3 +17,4 @@
 ### Added
 
 - CLI Logo Added.
+- Added Chalk Package.
