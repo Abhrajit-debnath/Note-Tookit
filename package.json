@@ -6,10 +6,12 @@
   "bin": {
     "note-buddy": "./bin/app.js"
   },
+  "type": "module",
   "scripts": {
     "start": "node ./bin/app.js",
     "postinstall": "node postinstall.js"
   },
+  
   "author": "Abhrajit Debnath",
   "license": "MIT",
   "dependencies": {

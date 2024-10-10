@@ -1,4 +1,4 @@
-const chalk = require("chalk");
+import chalk from "chalk";
 console.log(chalk.blue("Welcome to Note-Toolkit"));
 console.log(
   chalk.green(`

@@ -17,4 +17,12 @@
 ### Added
 
 - CLI Logo Added.
+
+## [1.0.9] - 2024-10-10
+
 - Added Chalk Package.
+
+
+## [1.0.10] - 2024-10-10
+
+- Fix Module type.
