@@ -6,7 +6,6 @@
   "bin": {
     "note-buddy": "./bin/app.js"
   },
-  "type": "module",
   "scripts": {
     "start": "node ./bin/app.js",
     "postinstall": "node postinstall.js"
@@ -14,7 +13,7 @@
   "author": "Abhrajit Debnath",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^5.3.0",
+    "chalk": "^4.1.2",
     "yargs": "^17.7.2"
   },
   "keywords": [
