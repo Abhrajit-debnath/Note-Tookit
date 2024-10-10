@@ -26,3 +26,8 @@
 ## [1.0.10] - 2024-10-10
 
 - Fix Module type.
+
+
+## [1.0.11] - 2024-10-10
+
+- change chalk version.
