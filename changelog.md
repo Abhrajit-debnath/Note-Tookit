@@ -31,3 +31,9 @@
 ## [1.0.11] - 2024-10-10
 
 - change chalk version.
+
+
+## [1.0.11] - 2024-10-10
+
+- change file path postinstall.js.
+

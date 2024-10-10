@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node ./bin/app.js",
-    "postinstall": "node postinstall.js"
+     "postinstall": "node ./bin/postinstall.js"
   },
   "author": "Abhrajit Debnath",
   "license": "MIT",
